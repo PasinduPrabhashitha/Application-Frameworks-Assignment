@@ -3,12 +3,7 @@ import { Routes as AppRoutes, Route } from "react-router-dom";
 import * as reactRouterDom from "react-router-dom";
 import { getSuperTokensRoutesForReactRouterDom } from "supertokens-auth-react";
 import { SessionAuth } from "supertokens-auth-react/recipe/session";
-import {
-  
-  AddHotel,
-  
-
-} from "./pages";
+import { AddHotel } from "./pages";
 
 const Routes = () => {
   return (
@@ -22,7 +17,7 @@ const Routes = () => {
           </SessionAuth>
         }
       />
-      
+
       <Route
         path="/hotels"
         element={
@@ -39,11 +34,8 @@ const Routes = () => {
           </SessionAuth>
         }
       />
-     
-      
-      
+
       <Route path="/admin/hotels/new" element={<AddHotel />} />
-      
 
       {getSuperTokensRoutesForReactRouterDom(reactRouterDom)}
     </AppRoutes>
