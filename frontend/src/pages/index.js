@@ -1,8 +1,8 @@
 import Home from "./Destinations/Home/Home";
 import Details from "./Destinations/Details/Details";
-import FlightBooking from "./Flights/Booking/FlightBooking";
-import FlightsAdmin from "./Flights/Admin/Table/FlightsAdmin";
-import AddFlight from "./Flights/Admin/Add/Add";
+import TravelMBooking from "./TravelM/Booking/TravelMBooking";
+import TravelMsAdmin from "./TravelM/Admin/Table/TravelMAdmin";
+import AddFlight from "./TravelM/Admin/Add/Add";
 import HotelHome from "./Hotels/Home/Home";
 import Hotels from "./Hotels/HotelsList/Hotels";
 import HotelDetails from "./Hotels/HotelDetails/HotelDetails";
@@ -36,8 +36,8 @@ export {
   AddDestinations,
   AddFlight,
   DestinationsAdmin,
-  FlightBooking,
-  FlightsAdmin,
+  TravelMBooking,
+  TravelMsAdmin,
   AddHotel,
   EditHotel,
   HotelAdmin,
